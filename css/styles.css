@@ -1,5 +1,5 @@
 * {
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
     font-size: 12px;
     color: #2d3c49;
     margin: 0 auto;
@@ -60,7 +60,8 @@ p {
     margin-bottom: 50px;
 }
 
-header, main {
+header,
+main {
     margin: 10px;
 }
 
@@ -72,7 +73,11 @@ header {
     display: flex;
     flex-direction: row;
     margin-top: 20px;
-    margin-bottom: -25px;
+    border-bottom: 2px solid #7d97ad;
+}
+
+.header-logo, .header-text {
+    margin-bottom: -35px;
 }
 
 .header-logo {
@@ -80,7 +85,7 @@ header {
 }
 
 .header-logo > p {
-    font-family: 'Stardos Stencil', cursive;
+    font-family: "Stardos Stencil", cursive;
     font-size: 4.5rem;
     color: #02b3e4;
     padding-bottom: 20px;
@@ -91,11 +96,6 @@ header {
     text-align: right;
 }
 
-.line {
-    width: 98%;
-    align-items: center;
-}
-
 main {
     display: flex;
     flex-direction: column;
@@ -104,7 +104,7 @@ main {
 
 .work {
     width: 100%;
-    margin: 10px 0 10px 0;
+    margin: 10px 0;
     text-align: center;
 }
 
