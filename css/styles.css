@@ -15,9 +15,8 @@ a {
 hr {
     border: 2px #7d97ad solid;
 }
-
-p > a {
-  font-size: 1rem;
+p>a {
+    font-size: 1rem;
 }
 
 /* styling classes */
@@ -55,11 +54,9 @@ p > a {
 header, main {
     margin: 10px;
 }
-
 .hero {
-  margin-top: 20px;
+    margin-top: 20px;
 }
-
 header {
     display: flex;
     flex-direction: row;
@@ -93,18 +90,12 @@ main {
     margin: 10px 0 10px 0;
     text-align: center;
 }
-
-.work > img {
-  margin-left: 5px;
-  margin-right: 5px;
+.work>img {
+    margin-left: 5px;
+    margin-right: 5px;
 }
-
-@media screen and (min-width: 700px) {
-
-}
-
+@media screen and (min-width: 700px) {}
 @media screen and (min-width: 800px) {
-
     main {
         flex-direction: row;
         flex-wrap: wrap;
@@ -113,7 +104,7 @@ main {
     .text-muted {
         width: 100%;
     }
-    .header-logo > p {
+    .header-logo>p {
         font-size: 6rem;
     }
     .text-thin {
@@ -122,20 +113,27 @@ main {
     .title-super {
         font-size: 2rem;
     }
-
     .text-muted {
         font-size: 2rem;
+    }
+    .hero {
+        display: flex;
+        flex-flow: row;
+    }
+    .hero>img {
+        width: 98%;
+        align-items: center;
     }
     .work {
         width: 33%;
     }
-
+    .work-img {
+        width: 94%;
+    }
     .work-heading {
-      font-size: 2.5rem;
+        font-size: 2.5rem;
     }
-
-    p > a {
-      font-size: .9rem;
+    p>a {
+        font-size: .9rem;
     }
-
 }
